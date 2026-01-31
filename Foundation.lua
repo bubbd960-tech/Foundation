@@ -2,7 +2,7 @@
 --!optimize 2
 --!native
 
---[[Module Ceated by Quill]]
+--[[Module Ceated by Quill, quick an user friendly code, this module was mainly created for QoL usage.]]
 
 local RunService = game:GetService("RunService")
 local CollectionService = game:GetService("CollectionService")
@@ -573,5 +573,6 @@ function Octree:SearchRadius(position: Vector3, radius: number): Array<any>
 end
 
 QoL.Octree = Octree
+
 
 return QoL
